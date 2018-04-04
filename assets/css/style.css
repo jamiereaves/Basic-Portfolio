@@ -1,0 +1,303 @@
+header{
+    background: #ffffff;
+    color: #eee;
+    width: 100%;
+    height: 82px;
+    border-bottom-style: solid;
+    border-bottom-color: #777777;
+    border-bottom-width: 2px;
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+    margin-bottom: 20px;
+
+
+}
+
+.headerContent{
+    width: 960px;
+    height: 82px;
+    margin: 0 auto;
+    position: relative;
+    bottom: 0;
+    
+    
+}
+
+#nameHeader{
+    background: #4aaaa5;
+    color: #eee;
+    font-size: 1.5em;
+    font-weight: bold;
+    float: left;
+    padding: 20px 20px 20px 20px;
+    margin: 0px;
+    position: absolute;
+    bottom: 0;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    
+}
+
+.topnav{
+    float: right; 
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+
+}
+
+#about:link, #about:visited{ 
+    background:#ffffff;
+    color: #777777;
+    padding: 25px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+#about:hover, #about:active {
+    background: #4aaaa5;
+    color: #eee;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow:1px 0px 2px 0px #777777;
+}
+
+#contact:link, #contact:visited{ 
+    background:#ffffff;
+    color: #777777;
+    padding: 25px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+#contact:hover, #contact:active {
+    background: #4aaaa5;
+    color: #eee;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow:1px 0px 2px 0px #777777;
+}
+
+#portfolio:link, #portfolio:visited{ 
+    background:#ffffff;
+    color: #777777;
+    padding: 25px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+#portfolio:hover, #portfolio:active {
+    background: #4aaaa5;
+    color: #eee;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow:1px 0px 2px 0px #777777;
+}
+
+.mainContent{
+    background: #ffffff;
+    color: #777777;
+    width: 960px;
+    margin: auto;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    border-style: solid;
+    border-color: #777777;
+    border-width: 1px;
+}
+
+#bioPhoto{
+    width: 200px;
+    height: 150px;
+    float: left;
+    margin: 0px 10px 5px 0px;
+    border-radius:3px;
+}
+
+.bio {
+    margin: 0px 20px 25px 20px;
+}
+
+#bioText {
+    line-height: 1.75;
+}
+
+.spacer {
+    width:100%;
+    height:85px;
+}
+
+/* content header for all pages*/
+#aboutMe {
+    color:#4aaaa5;
+    background: #ffffff;
+    padding: 25px 20px 10px 0px;
+    margin: 0px 20px 0px 20px;
+    text-indent: 0px;
+    border-bottom-style: solid;
+    border-bottom-color: #777777;
+    border-bottom-width: 1px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 1.5em;
+    font-weight: bold;
+
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background-color: #666666;
+    border-top-style: solid;
+    border-top-color: #4aaaa5;
+    border-top-width: 5px;
+}
+
+#footerText {
+    background: #666666;
+    color: #eee;
+    text-align: center;
+    margin-top:20px;
+}
+
+/* contact.html specific css*/
+.shortForm{
+    width: 100%;
+    padding:5px 5px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.longForm{
+    padding: 5px 5px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    resize: none;
+}
+
+.shortForm:focus,
+.longForm:focus {
+    outline: none;
+    border-color: #4aaaa5;
+    border-width: 2px;
+    background-color: #999999;
+    color: #fff;
+}
+
+.contactButton {
+    outline:none;
+    background: #4aaaa5;
+    color: #eee;
+    font-size: 18px;
+    padding: 20px 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 10px;
+    border-radius: 5px;
+    border-color: #777777;
+    border-width: 2px;
+    box-shadow: 2px 2px 1px 0px #426967;
+}
+
+.resetButton {
+    outline:none;
+    background: #4aaaa5;
+    color: #eee;
+    font-size: 18px;
+    padding: 20px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;float:right;
+    border-radius: 100% 100%;
+    border-color: #777777;
+    border-width: 2px;
+    box-shadow: 2px 2px 1px 0px #426967;    
+}
+
+.contactButton:hover,
+.resetButton:hover {
+    box-shadow: 3px 3px 2px 0px #426967;
+}
+
+.contactButton:active,
+.resetButton:active {
+    box-shadow: 2px 2px 1px 0px #426967;
+}
+
+/* portfolio specific css*/
+.bio:after {
+    content:"";
+    display:table;
+    clear:both;
+}
+
+.row:after {
+    content:"";
+    display:table;
+    clear:both;
+}
+
+.portLink{
+    width:30%;
+    height:207px;
+    float:left;
+    margin:0 20px;
+    border-radius: 20px;    
+    position:relative;
+    border-style: solid;
+    border-color: #4aaaa5;
+    border-width: 5px;
+    box-shadow:5px 5px 3px 0px grey;
+}
+
+.portPhoto {
+    width:100%;
+    height:100%;
+    position:relative;
+    border-radius:15px;
+
+}
+
+.imgDesc {
+    position: absolute;
+    top:100px;
+    bottom:40px;
+    left:0;
+    right:0;
+    text-align:center;
+    padding: 22px 0 0 0;
+    background: #4aaaa5;
+    color: #ffffff;
+    font-size:24px;
+    visibility:hidden;
+    opacity:0;
+    transition:opacity .4s, visibility .2s;
+}
+
+.portLink:hover .imgDesc {
+    visibility: visible;
+    opacity: 0.85;
+}
+
+.portLink:hover .portPhoto {
+    opacity: 0.6;
+}
+
+.portLink:active {
+    box-shadow: 2px 2px 1px 0px grey;
+}
+.portLink:active .imgDesc {
+    visibility:visible;
+    opacity:1;
+}
+
+.portLink:active .portPhoto{
+    opacity: 0.7;
+}
