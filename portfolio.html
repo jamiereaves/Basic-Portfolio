@@ -9,7 +9,7 @@
         <meta lang="en-us">
         <!--project tytle-->
         <title>Homework #1</title>
-        <!--link to css file-->
+        <!--reset browser defaults and link to css file-->
         <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
         <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
@@ -17,13 +17,14 @@
 
     <body style="background-image:url(ep_naturalwhite.png)">
         <header>
-            <!--my name in a teal box with white text-->
-        
+            
+        <!--my name in a teal box with white text-->
         <section class="headerContent">
             <h1 id="nameHeader">Jamie Reaves</h1>
             <!--navigation bar linking the three component pages-->
             <nav class="topnav">
-                <!--create three links-->
+                <!--create three links: a placeholder link for the current page & links
+                    to the other two pages-->
                 <a id="about" href="index.html">About</a>
                 <a id="contact" href="contact.html">Contact</a>
                 <a id="portfolio" href="#">Portfolio</a>
@@ -32,14 +33,17 @@
         
         </header>
 
-        <!--central box with content-->
+        <!--central box with main content-->
         <div class="mainContent">
             <!--header for the "porfolio" section-->
             <h1 id="aboutMe">Portfolio</h1>
             <br>
-            <!--box for portfolio content-->
+            <!--box for portfolio content: three rows containing placeholder links with
+                images-->
             <section class="bio">
                 
+                <!--a row with two links. each link has an associated picture and text 
+                    element-->
                 <section class="row">
                     <a class="portLink" href="#">
                         <img class="portPhoto" src="assets/images/bento.jpg" alt="Hangman">
@@ -54,6 +58,8 @@
                 
                 <br>
                 
+                <!--a row with two links. each link has an associated picture and text 
+                    element-->
                 <section class="row">
                     <a class="portLink" href"#">
                         <img class="portPhoto" src="assets/images/coast.jpg" alt="Trivia Game">
@@ -68,6 +74,8 @@
                 
                 <br>
                 
+                <!--a row with one link. the link has an associated picture and text 
+                    element-->
                 <section class="row">
                     <a class="portLink" href="#">
                         <img class="portPhoto" src="assets/images/surf.jpg" alt="Rock Paper Scissors">
@@ -75,16 +83,16 @@
                     </a>
                 </section>
                     
-                
-
             </section>
         </div>
 
+        <!--barrier spacer so that the footer doesn't overlap the main content if the height of
+            the main content>the height of the browser window-->
         <div class="spacer"></div>
 
-
+        <!--footer with the copyright warning-->
         <div class="footer">
-                <p id="footerText">copyright </p>
+                <p id="footerText">copyright &copy;</p>
         <div/>
     </body>
 </html>

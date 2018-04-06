@@ -9,7 +9,7 @@
         <meta lang="en-us">
         <!--project tytle-->
         <title>Homework #1</title>
-        <!--link to css file-->
+        <!--reset browser defaults and link to css file-->
         <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
         <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
@@ -17,13 +17,14 @@
 
     <body style="background-image:url(ep_naturalwhite.png)">
         <header>
-            <!--my name in a teal box with white text-->
-        
+            
+        <!--my name in a teal box with white text-->
         <section class="headerContent">
             <h1 id="nameHeader">Jamie Reaves</h1>
             <!--navigation bar linking the three component pages-->
             <nav class="topnav">
-                <!--create three links-->
+                <!--create three links: a placeholder link for the current page & links
+                    to the other two pages-->
                 <a id="about" href="index.html">About</a>
                 <a id="contact" href="#">Contact</a>
                 <a id="portfolio" href="portfolio.html">Portfolio</a>
@@ -42,11 +43,14 @@
                     
                 <form>
                     Name <br>
+                    <!--inputs for the name/email-->
                     <input class="shortForm" type="text" name="name" placeholder="Jane Doe"> <br><br>
                     Email <br>
                     <input class="shortForm" type="text" name="email" placeholder="example@gmail.com"> <br><br>
                     Message <br>
+                    <!--larger area to leave a message-->
                     <textarea class="longForm" type="text" name="message" style="width:920px; height:200px"></textarea> <br><br>
+                    <!--a submit button and a reset button-->
                     <input class="contactButton" type="submit" value="Submit">
                     <input class="resetButton" type="reset" value="Clear"><br>
                 </form>
@@ -54,10 +58,13 @@
             </section>
         </div>
 
+        <!--barrier spacer so that the footer doesn't overlap the main content if the height of
+            the main content>the height of the browser window-->
         <div class="spacer"></div>
-
+        
+        <!--footer with the copyright warning-->
         <div class="footer">
-                <p id="footerText">copyright </p>
+                <p id="footerText">copyright &copy;</p>
         <div/>
     </body>
 </html>

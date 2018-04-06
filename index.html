@@ -9,21 +9,23 @@
         <meta lang="en-us">
         <!--project tytle-->
         <title>Homework #1</title>
-        <!--link to css file-->
+        <!--reset browser defaults and link to css file-->
         <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
         <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
     </head>
 
+    <!--set the background image for the page-->
     <body style="background-image:url(ep_naturalwhite.png)">
         <header>
-            <!--my name in a teal box with white text-->
-        
+            
+        <!--my name in a teal box with white text-->
         <section class="headerContent">
             <h1 id="nameHeader">Jamie Reaves</h1>
             <!--navigation bar linking the three component pages-->
             <nav class="topnav">
-                <!--create three links-->
+                <!--create three links: a placeholder link for the current page & links
+                    to the other two pages-->
                 <a id="about" href="#">About</a>
                 <a id="contact" href="contact.html">Contact</a>
                 <a id="portfolio" href="portfolio.html">Portfolio</a>
@@ -32,7 +34,7 @@
         
         </header>
 
-        <!--central box with content-->
+        <!--central box with main content-->
         <div class="mainContent">
             <!--header for the "about me" section-->
             <h1 id="aboutMe">About Me</h1>
@@ -40,8 +42,10 @@
             <!--box for picture and text-->
             <section class="bio">
                     
+                    <!--main picture-->
                     <img id="bioPhoto" src="assets/images/nature-q-c-200-100-1.jpg" alt="Jamie Reaves">
                     
+                    <!--biographical introduction with three paragraphs separated by line breaks-->
                     <p id="bioText">On the other hand, we denounce with righteous indignation and dislike 
                     men who are so beguiled and demoralized by the charms of pleasure of the moment, 
                     so blinded by desire, that they cannot foresee the pain and trouble that are bound 
@@ -66,8 +70,13 @@
             </section>
         </div>
 
+        <!--barrier spacer so that the footer doesn't overlap the main content if the height of
+            the main content>the height of the browser window-->
+        <div class="spacer"></div>
+        
+        <!--footer with the copyright warning-->
         <div class="footer">
-                <p id="footerText">copyright </p>
+                <p id="footerText">copyright &copy;</p>
         <div/>
     </body>
 </html>
